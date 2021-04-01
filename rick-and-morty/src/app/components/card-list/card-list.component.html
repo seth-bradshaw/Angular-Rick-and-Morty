@@ -1,0 +1,30 @@
+<div class="card-list-container">
+  <div *ngFor="let character of characters" class="card-container">
+    <img
+      class="profile-img"
+      src="{{ character.image }}"
+      alt="{{ character.name }}"
+    />
+
+    <div class="profile-content-container">
+      <div class="profile-card-header">
+        <h4 class="profile-title">{{ character.name }}</h4>
+        <p class="profile-header-text">
+          {{ character.status }} - {{ character.species }}
+        </p>
+      </div>
+      <div class="profile-text-container">
+        <div>
+          <p class="profile-text-title">Last known location:</p>
+          <p class="profile-text">
+            {{ character.origin.name }}
+          </p>
+          <div>
+            <p>Latest Episode:</p>
+            <p>{{ character.latestEpisode.name }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

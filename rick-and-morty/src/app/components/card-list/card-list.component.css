@@ -1,0 +1,49 @@
+.card-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.card-container {
+  width: 30%;
+  max-height: 200px;
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #93a5cf, #e4efe9);
+}
+
+.profile-img-container {
+  width: 35%;
+  height: 100%;
+}
+
+.profile-img {
+  width: 35%;
+  padding: 0px;
+  border-radius: 25px 0px 0px 25px;
+}
+
+.profile-content-container {
+  margin-left: 15px;
+}
+
+.profile-card-header {
+  max-height: 50px;
+  line-height: 0.5;
+}
+
+.profile-title {
+  margin: 5% auto auto auto;
+  font-size: 25px;
+  color: #f1f1f1;
+  font-weight: bolder;
+}
+
+.profile-header-text {
+  font-size: 16px;
+  color: #f1f1f1;
+}
